@@ -118,10 +118,10 @@ h1 span{
   
     .contenaire .card_movie {
       width: 100%; /* Les cartes occupent la largeur de l'écran */
-      height: 560px;
+      height: 600px;
     }
     .card_movie img{
-        width: 100%;
+        width: 70%;
         font-size: 80%;
     }
   }

@@ -23,15 +23,15 @@ fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=d397fbb683d9715d31
       card.appendChild(image);
 
       const title = document.createElement('p');
-      title.textContent = `Titre : ${movie.title}`;
+      title.textContent = `Title : ${movie.title}`;
       card.appendChild(title);
 
       const year = document.createElement('p');
-      year.textContent = `Anneé : ${movie.release_date}`;
+      year.textContent = `Year : ${movie.release_date}`;
       card.appendChild(year);
 
       const qid = document.createElement('p');
-      qid.textContent = `Langue : ${movie.original_language}`;
+      qid.textContent = `Language : ${movie.original_language}`;
       card.appendChild(qid);
 
       const stars = document.createElement('p');
@@ -74,15 +74,15 @@ btn_search.addEventListener('click', ()=>{
             card.appendChild(image);
 
             const title = document.createElement('p');
-            title.textContent = `Titre : ${movie.title}`;
+            title.textContent = `Title : ${movie.title}`;
             card.appendChild(title);
 
             const year = document.createElement('p');
-            year.textContent = `Anneé : ${movie.release_date}`;
+            year.textContent = `Year : ${movie.release_date}`;
             card.appendChild(year);
 
             const qid = document.createElement('p');
-            qid.textContent = `Langue : ${movie.original_language}`;
+            qid.textContent = `Language : ${movie.original_language}`;
             card.appendChild(qid);
 
             const stars = document.createElement('p');
