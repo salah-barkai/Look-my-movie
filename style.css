@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin: 0px;
+    position: fixed;
+    width: 100%;
+    background-color: brown;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+h1{
+  font-size:20px;
+  float: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+h1 span{
+    color: black;
+}
+#search{
+    padding: 10px;
+}
+#rechercher{
+    padding: 5px;
+    width: 250px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+}
+
+#rechercher::before{
+    color: white;
+}
+
+#rechercher:hover{
+    border: 1px solid white;
+}
+
+#btn_search{
+    width: 150px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: brown;
+}
+
+#btn_search:hover{
+    padding: 4px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.contenaire{
+  margin: 110px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Permettre l'enroulement des éléments en cas de manque d'espace */
+  gap: 20px;
+}
+
+.contenaire .card_movie{
+    margin: 20px;
+    width: 380px;
+    height: 540px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.card_movie img{
+    width: 330px;
+    border-radius: 10px;
+    margin: 8px;
+    
+}
+
+.card_movie p{
+    margin: 5px;
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+    header{
+        font-size: 80%;
+    }
+    #rechercher{
+        font-size: 80%;
+        width: 100px;
+    }
+    #btn_search{
+        font-size: 80%;
+        width: 50px;
+    }
+    .contenaire {
+     
+      justify-content: center; /* Centrer en colonne */
+      margin: 50px; /* Marge plus petite */
+    }
+  
+    .contenaire .card_movie {
+      width: 100%; /* Les cartes occupent la largeur de l'écran */
+      height: 560px;
+    }
+    .card_movie img{
+        width: 100%;
+        font-size: 80%;
+    }
+  }
+ 
+  
+  
+  
