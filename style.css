@@ -134,9 +134,10 @@ footer{
     }
   
     .contenaire .card_movie {
-      width: 100%; /* Les cartes occupent la largeur de l'écran */
+      width: 400px; /* Les cartes occupent la largeur de l'écran */
       height: 500px;
       padding: 5px;
+      overflow: hidden;
     }
     .card_movie img{
         width: 90%;
