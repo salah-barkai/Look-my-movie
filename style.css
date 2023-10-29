@@ -131,6 +131,7 @@ footer{
     .contenaire {
       justify-content: center; /* Centrer en colonne */
       margin: 80px; /* Marge plus petite */
+      width: 75%;
     }
   
     .contenaire .card_movie {
