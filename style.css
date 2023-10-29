@@ -122,17 +122,18 @@ footer{
         font-size: 80%;
     }
     #rechercher{
-        font-size: 80%;
+        font-size: 90%;
         width: 100px;
     }
     #btn_search{
-        font-size: 80%;
+        font-size: 90%;
         width: 50px;
     }
     .contenaire {
       justify-content: center; /* Centrer en colonne */
       margin: 80px; /* Marge plus petite */
-      width: 75%;
+      width: 80%;
+      
     }
   
     .contenaire .card_movie {
@@ -141,6 +142,7 @@ footer{
         overflow: hidden;
         box-shadow: 5px 5px 20px 10px brown;
         border-style: none;
+        margin-left: -20px;
     }
     .card_movie img{
         width: 90%;
