@@ -85,10 +85,11 @@ h1 span{
     margin: 20px;
     width: 380px;
     height: 540px;
-    border: 1px solid white;
+    border-style: none;
     padding: 5px;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 5px 5px 20px 10px brown;
 }
 
 .card_movie img{
@@ -136,6 +137,8 @@ footer{
         width: 90%; /* Ajustez la largeur pour les petits écrans */
         height: auto;
         overflow: hidden;
+        box-shadow: 5px 5px 20px 10px brown;
+        border-style: none;
     }
     .card_movie img{
         width: 90%;
