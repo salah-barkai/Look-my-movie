@@ -128,16 +128,14 @@ footer{
         width: 50px;
     }
     .contenaire {
-     
       justify-content: center; /* Centrer en colonne */
       margin: 80px; /* Marge plus petite */
     }
   
     .contenaire .card_movie {
-      width: 400px; /* Les cartes occupent la largeur de l'écran */
-      height: 500px;
-      padding: 5px;
-      overflow: hidden;
+        width: 90%; /* Ajustez la largeur pour les petits écrans */
+        height: auto;
+        overflow: hidden;
     }
     .card_movie img{
         width: 90%;
