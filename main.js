@@ -18,8 +18,6 @@ fetch("https://api.themoviedb.org/3/movie/now_playing?api_key=d397fbb683d9715d31
 
       const image = document.createElement('img');
       image.src = `https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}`;
-      image.style.width = "330px"; // Définir la largeur de l'image
-      image.style.height = "280px"; // Définir la hauteur de l'image
       card.appendChild(image);
 
       const title = document.createElement('p');
@@ -69,8 +67,6 @@ btn_search.addEventListener('click', ()=>{
 
             const image = document.createElement('img');
             image.src = `https://image.tmdb.org/t/p/w300_and_h450_bestv2/${movie.poster_path}`;
-            image.style.width = "320px"; // Définir la largeur de l'image
-            image.style.height = "250px"; // Définir la hauteur de l'image
             card.appendChild(image);
 
             const title = document.createElement('p');
