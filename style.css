@@ -9,16 +9,21 @@ body{
     justify-content: center;
     background-color: black;
     color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 header{
     margin: 0px;
     position: fixed;
-    width: 100%;
     background-color: brown;
     border: 1px solid white;
     border-radius: 10px;
     padding: 15px;
+    justify-content: center;
+    width: 100%; /* La largeur est définie à 100% */
+    top: 0; /* Fixer le haut du header en haut de la fenêtre */
+    left: 0; 
 }
 
 h1{
@@ -98,6 +103,16 @@ h1 span{
     font-size: 15px;
 }
 
+footer{
+    background-color: brown;
+    color: black;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+
 @media (max-width: 768px) {
 
     header{
@@ -124,6 +139,11 @@ h1 span{
     }
     .card_movie img{
         width: 90%;
+    }
+
+    footer{
+        width: auto;
+        font-size: 80%;
     }
   }
  
