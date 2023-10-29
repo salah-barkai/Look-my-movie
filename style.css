@@ -88,6 +88,7 @@ h1 span{
     border: 1px solid white;
     padding: 5px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .card_movie img{
@@ -134,7 +135,7 @@ footer{
   
     .contenaire .card_movie {
       width: 100%; /* Les cartes occupent la largeur de l'écran */
-      height: 630px;
+      height: 500px;
       padding: 5px;
     }
     .card_movie img{
