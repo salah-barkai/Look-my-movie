@@ -114,16 +114,16 @@ h1 span{
     .contenaire {
      
       justify-content: center; /* Centrer en colonne */
-      margin: 50px; /* Marge plus petite */
+      margin: 80px; /* Marge plus petite */
     }
   
     .contenaire .card_movie {
       width: 100%; /* Les cartes occupent la largeur de l'écran */
       height: 630px;
+      padding: 5px;
     }
     .card_movie img{
-        width: 70%;
-        font-size: 80%;
+        width: 90%;
     }
   }
  
